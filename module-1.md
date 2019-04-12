@@ -30,7 +30,7 @@ Thus, against common wisdom, we will actually use Pawno in parts of this guide.
 
 Programming is the act of telling a computer what to do.  Computers are very stupid - if you tell it something, it will do EXACTLY what you said.  People complain that their computer isn't doing the right thing - this usually means the computer isn't doing what they *intended*, but it is doing what they *said*.  See this link for an excellent demonstration of this idea:
 
-https://www.youtube.com/watch?v=cDA3_5982h8
+* https://www.youtube.com/watch?v=cDA3_5982h8
 
 Everyone knows what was meant, except the computer (dad), which just followed the instructions precisely as given with no thought at all.  It also perfectly demonstrates debugging - having the "computer" run (read) the instructions, seeing what happens, then tweaking them to be more explicit.  Finally, it nicely demonstrates the frustration this process can cause when the computer doesn't do what you meant over and over and over.
 
@@ -44,7 +44,7 @@ To start coding, lets open Pawno (if you don't have it, download and extract the
 
 By far the best resource for learning basic pawn syntax is, and has always been, pawn-lang.pdf; the original documentation for the language itself:
 
-https://github.com/pawn-lang/compiler/raw/master/doc/pawn-lang.pdf
+* https://github.com/pawn-lang/compiler/raw/master/doc/pawn-lang.pdf
 
 The tutorial introduction is a good start, with a few notes:
 

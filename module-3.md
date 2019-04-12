@@ -4,7 +4,7 @@
 
 Modules are individual isolated parts of a mode.  Each one providing a single piece of functionality - for example a taxi system or checkpoint streamer.  Similar to includes in that they also do one thing, with the only difference really being that includes tend to be third-party, while modules are more mode-specific.  However, the basic principle is the same.  They are also called "systems", and the act of using them is called "modular programming":
 
-https://forum.sa-mp.com/showthread.php?t=597338
+* https://forum.sa-mp.com/showthread.php?t=597338
 
 ## Style Guide
 
@@ -81,8 +81,8 @@ found_the_player:
 
 Pawn has destructors.  This was only discovered after about a decade of common use, and is still not widely known due to a lack of information.  In fact the majority of information on this is only found in issues and commits on the community compiler:
 
-https://github.com/pawn-lang/compiler/issues?utf8=%E2%9C%93&q=destructor
-https://github.com/pawn-lang/compiler/pull/260
+* https://github.com/pawn-lang/compiler/issues?utf8=%E2%9C%93&q=destructor
+* https://github.com/pawn-lang/compiler/pull/260
 
 In short:
 
@@ -125,11 +125,11 @@ A basic introduction is here: https://misiur.github.io/2015/03/07/y_iterate-aka-
 
 The use and implementation of this language feature has been very extensively documented on the forums; including an in-depth explanation of how it works:
 
-https://forum.sa-mp.com/showpost.php?p=3430951
-https://forum.sa-mp.com/showpost.php?p=3430953
-https://forum.sa-mp.com/showpost.php?p=3430954
-https://forum.sa-mp.com/showpost.php?p=3430959
-https://forum.sa-mp.com/showpost.php?p=3430963
+* https://forum.sa-mp.com/showpost.php?p=3430951
+* https://forum.sa-mp.com/showpost.php?p=3430953
+* https://forum.sa-mp.com/showpost.php?p=3430954
+* https://forum.sa-mp.com/showpost.php?p=3430959
+* https://forum.sa-mp.com/showpost.php?p=3430963
 
 Again, this was a topic originally posted by Y_Less then later reposted after the original was deleted.
 

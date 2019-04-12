@@ -4,13 +4,13 @@
 
 By far the most important step you can take in improving in Pawn is to replace the compiler with the latest version from here:
 
-https://github.com/pawn-lang/compiler/releases
+* https://github.com/pawn-lang/compiler/releases
 
 Just overwrite the old files with the new ones in the "bin" folder in the archive.
 
 For information on what has changed in this version, check the associated wiki:
 
-https://github.com/pawn-lang/compiler/wiki
+* https://github.com/pawn-lang/compiler/wiki
 
 Take special note of the page on "Const Correctness", as this can produce a lot of new warnings in code that has always been wrong, but silently.  "What's new" covers new features (most of which are for fairly advanced corner-cases), and "Known compiler bugs" goes over what is fixed in this version.  Other pages are more internal details.
 
@@ -18,37 +18,37 @@ Take special note of the page on "Const Correctness", as this can produce a lot 
 
 This aspect of Pawn has been somewhat skirted around up to this point - only basic includes and definitions have been mentioned so far but there is far more to it than that.  pawn-lang.pdf and the wiki have some information:
 
-https://wiki.sa-mp.com/wiki/Keywords:Directives
+* https://wiki.sa-mp.com/wiki/Keywords:Directives
 
 ## Automata
 
 The other major language feature deftly avoided to the point is states.  The simple reason being that they are not widely used in SA:MP.  This is not because they are no use, or because they are broken, but simply scalability.  States adjust the behaviour of an entire script, whereas with multiple players, actions tend to be per-player.  When one player enters a checkpoint, the code should do one thing, but something else for another player.  Using states, only one of these situations could be represented at any given time.  However, they do have uses when some setting truly is global.  Module 1 mentioned several tutorial sections of pawn-lang.pdf to avoid, go back and read them now.  Then read the forum tutorial:
 
-https://forum.sa-mp.com/showthread.php?t=570939
+* https://forum.sa-mp.com/showthread.php?t=570939
 
 YSI contains several examples automata, but they are not widely used anywhere else:
 
 Using states to enable and disable debug messages:
 
-https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Core/y_core/y_debug_impl.inc#L575-L593
+* https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Core/y_core/y_debug_impl.inc#L575-L593
 
 Using states to determine how to show a piece of text:
 
-https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Players/y_text/y_text_render.inc#L760-L811
+* https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Players/y_text/y_text_render.inc#L760-L811
 
 Using states to call another function based on which parameters are required:
 
-https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Storage/y_ini/y_ini_impl.inc#L1479-L1517
+* https://github.com/pawn-lang/YSI-Includes/blob/9868b37e42dd0827058f7ddcae0012a872fb27aa/YSI_Storage/y_ini/y_ini_impl.inc#L1479-L1517
 
 ## ALS
 
 ALS stands for "Advanced Library System", though very few people know that, and it isn't actually important what it stands for any more.  What it is is a way to use the same callback in many different files.  There are two versions of ALS, one is documented here:
 
-https://forum.sa-mp.com/showthread.php?t=574534
+* https://forum.sa-mp.com/showthread.php?t=574534
 
 The other is documented here:
 
-https://forum.sa-mp.com/showpost.php?p=4091581
+* https://forum.sa-mp.com/showpost.php?p=4091581
 
 You might note that this version uses states, it is a little slower, but has one advantage - greater control over hook order.
 

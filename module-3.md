@@ -26,7 +26,7 @@ enum e_TAXI_FLAGS
 
 // Strongly tagged enum.
 enum E_TAXI_DATA
-// "Alman" braces (always on a new line).
+// "Allman" braces (always on a new line).
 {
 	e_TAXI_FLAGS:E_TAXI_DATA_FLAGS,
 	// Tags are "Camel Case", with the first letter determined by tag strength rules.  However,

@@ -32,8 +32,8 @@ enum E_TAXI_DATA
 	// Tags are "Camel Case", with the first letter determined by tag strength rules.  However,
 	// since tags are always followed by a colon, this is always unambiguous.
 	Float:E_TAXI_DATA_X,
-	Float:E_TAXI_DATA_X,
-	Float:E_TAXI_DATA_X
+	Float:E_TAXI_DATA_Y,
+	Float:E_TAXI_DATA_Z
 }
 
 // Globals `static` as much as possible to prevent complex inter-module dependencies.

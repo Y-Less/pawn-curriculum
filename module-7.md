@@ -5,6 +5,7 @@ The default editor for SA:MP is pawno.  As previously mentioned, this editor is 
 * [VSCodium](https://vscodium.com/)
 * [Qawno](https://github.com/Zeex/qawno)
 * [PawnPlus](https://github.com/WopsS/PawnPlus/)
+* [Atom](https://atom.io/)
 
 Other editors, including vim and emacs, currently have no common pawn support.  However, the compiler can also be invoked directly:
 

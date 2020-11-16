@@ -18,7 +18,7 @@ Take special note of the page on "Const Correctness", as this can produce a lot 
 
 This aspect of Pawn has been somewhat skirted around up to this point - only basic includes and definitions have been mentioned so far but there is far more to it than that.  pawn-lang.pdf and the wiki have some information:
 
-* https://wiki.open.mp/docs/scripting/language/Directives
+* https://open.mp/docs/scripting/language/Directives
 
 ## Automata
 

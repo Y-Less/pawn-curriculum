@@ -69,17 +69,17 @@ The original version of Pawn had this function defined elsewhere, SA:MP defines 
 
 As mentioned above, the coding style used in modern pawn is subtly different to that in the original documentation.  The following links will give a much better idea of this syntax, when armed with the existing knowledge from the documentation.
 
-* https://wiki.open.mp/docs/scripting/resources/start
-* https://wiki.open.mp/docs/scripting/language/ControlStructures
-* https://wiki.open.mp/docs/scripting/language/Statements
-* https://wiki.open.mp/docs/scripting/language/Initialisers
+* https://open.mp/docs/scripting/resources/start
+* https://open.mp/docs/scripting/language/ControlStructures
+* https://open.mp/docs/scripting/language/Statements
+* https://open.mp/docs/scripting/language/Initialisers
 
 Ignore `assert`, `exit`, `goto`, `sleep`, and `state` from the third link above.
 
 The keen-eyed among you may have noticed two more keyword pages, but these can be left for now:
 
-* https://wiki.open.mp/docs/scripting/language/Operators
-* https://wiki.open.mp/docs/scripting/language/Directives
+* https://open.mp/docs/scripting/language/Operators
+* https://open.mp/docs/scripting/language/Directives
 
 For even more reference, at this point you can also read the next few sections of pawn-lang.pdf - "Data and declarations", "Functions", "The preprocessor", "General syntax", "Operators and expressions", and "Statements".  Don't forget `default.inc`.
 

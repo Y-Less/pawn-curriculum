@@ -18,13 +18,13 @@ Take special note of the page on "Const Correctness", as this can produce a lot 
 
 This aspect of Pawn has been somewhat skirted around up to this point - only basic includes and definitions have been mentioned so far but there is far more to it than that.  pawn-lang.pdf and the wiki have some information:
 
-* https://wiki.sa-mp.com/wiki/Keywords:Directives
+* https://wiki.open.mp/docs/scripting/language/Directives
 
 ## Automata
 
 The other major language feature deftly avoided to the point is states.  The simple reason being that they are not widely used in SA:MP.  This is not because they are no use, or because they are broken, but simply scalability.  States adjust the behaviour of an entire script, whereas with multiple players, actions tend to be per-player.  When one player enters a checkpoint, the code should do one thing, but something else for another player.  Using states, only one of these situations could be represented at any given time.  However, they do have uses when some setting truly is global.  Module 1 mentioned several tutorial sections of pawn-lang.pdf to avoid, go back and read them now.  Then read the forum tutorial:
 
-* https://forum.sa-mp.com/showthread.php?t=570939
+* [http://forum.sa-mp.com/showthread.php?t=570939](http://web-old.archive.org/web/20170916183933/http://forum.sa-mp.com/showthread.php?t=570939)
 
 YSI contains several examples automata, but they are not widely used anywhere else:
 
@@ -44,12 +44,13 @@ Using states to call another function based on which parameters are required:
 
 ALS stands for "Advanced Library System", though very few people know that, and it isn't actually important what it stands for any more.  What it is is a way to use the same callback in many different files.  There are two versions of ALS, one is documented here:
 
-* https://forum.sa-mp.com/showthread.php?t=574534
+* [https://forum.sa-mp.com/showthread.php?t=574534](http://web-old.archive.org/web/20190420000314/https://forum.sa-mp.com/showthread.php?t=574534)
 
+<!--
 The other is documented here:
 
 * https://forum.sa-mp.com/showpost.php?p=4091581
-
+-->
 You might note that this version uses states, it is a little slower, but has one advantage - greater control over hook order.
 
 ## #pragma

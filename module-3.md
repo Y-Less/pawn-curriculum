@@ -4,7 +4,7 @@
 
 Modules are individual isolated parts of a mode.  Each one providing a single piece of functionality - for example a taxi system or checkpoint streamer.  Similar to includes in that they also do one thing, with the only difference really being that includes tend to be third-party, while modules are more mode-specific.  However, the basic principle is the same.  They are also called "systems", and the act of using them is called "modular programming":
 
-* https://forum.sa-mp.com/showthread.php?t=597338
+* [https://forum.sa-mp.com/showthread.php?t=597338](http://web-old.archive.org/web/20190421210413/https://forum.sa-mp.com/showthread.php?t=597338)
 
 ## Style Guide
 
@@ -123,6 +123,10 @@ Hooks have alredy been covered under the section on ALS.  But ALS hooks are slow
 
 A basic introduction is here: https://misiur.github.io/2015/03/07/y_iterate-aka-foreach-what-is-it-and-how-to-use-it/
 
+The use and implementation of this language feature has been very extensively documented on the github below, including an in-depth explanation of how it works:
+* https://github.com/pawn-lang/YSI-Includes/blob/5.x/YSI_Data/y_foreach/quick-start.md
+
+<!--
 The use and implementation of this language feature has been very extensively documented on the forums; including an in-depth explanation of how it works:
 
 * https://forum.sa-mp.com/showpost.php?p=3430951
@@ -132,10 +136,11 @@ The use and implementation of this language feature has been very extensively do
 * https://forum.sa-mp.com/showpost.php?p=3430963
 
 Again, this was a topic originally posted by Y_Less then later reposted after the original was deleted.
+-->
 
 ### `yield`
 
-An extension to `foreach`, repeatedly passing data to a calling function from inside the called function: https://forum.sa-mp.com/showpost.php?p=4011246
+An extension to `foreach`, repeatedly passing data to a calling function from inside the called function: https://github.com/pawn-lang/YSI-Includes/blob/5.x/YSI_Data/y_foreach/yield.md
 
 ### `foreign`/`global`
 
